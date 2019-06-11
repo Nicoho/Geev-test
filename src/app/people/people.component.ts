@@ -11,13 +11,11 @@ export class PeopleComponent implements OnInit {
 
 //peoples=[{name:"bob"},{name:"noub"}, {name:"rip"}];
 peoples: any[];
-@Input() peopleName;
-
  
 
-  constructor() { }
+  constructor(private apiService:ApiService) { }
   ngOnInit() {
-          console.log(this.peopleName)
+         this.peoples=this.apiService.people
         
       }
     }

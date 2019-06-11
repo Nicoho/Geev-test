@@ -1,5 +1,7 @@
 
 <div>
-  <H4>{{peopleName}}</H4>
+  <app-people-item *ngFor= "let url of peoples"
+    [url]= "url"
+  ></app-people-item>
 
 </div>

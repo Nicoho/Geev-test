@@ -11,7 +11,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PeopleItemComponent } from './people-item/people-item.component';
 
 const appRoutes: Routes = [
-  { path: 'species/:id', component:PeopleComponent},
+  { path: 'specie', component:PeopleComponent},
   { path: '', component: SpeciesComponent }
 ];
 
