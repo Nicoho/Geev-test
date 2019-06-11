@@ -9,15 +9,15 @@ import { ApiService } from '../api.service';
 
 export class PeopleComponent implements OnInit {
 
-//peoples=[{name:"bob"},{name:"noub"}, {name:"rip"}];
+name:string;
 peoples: any[];
  
 
   constructor(private apiService:ApiService) { }
   ngOnInit() {
-         this.peoples=this.apiService.people
-        
-      }
+        this.peoples=this.apiService.people;
+        this.name=this.apiService.specie;     
+       }
     }
     
  

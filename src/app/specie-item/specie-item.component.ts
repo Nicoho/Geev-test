@@ -11,7 +11,6 @@ import { ApiService } from '../api.service';
 })
 export class SpecieItemComponent implements OnInit {
  @Input() specieName: string;
- @Input() index:number;
  @Input() people:any[];
 
 
@@ -23,6 +22,7 @@ export class SpecieItemComponent implements OnInit {
 
   onPeople (){
     this.apiService.people=this.people;
+    this.apiService.specie=this.specieName;
     this.router.navigate(["specie"]);
   }
 }

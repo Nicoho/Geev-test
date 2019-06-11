@@ -10,6 +10,7 @@ export class ApiService {
   constructor(private httpClient: HttpClient) { }
 
   people:any[];
+  specie:string;
 
   getSpecies(){
     return this.httpClient.get(`https://swapi.co/api/species/`);

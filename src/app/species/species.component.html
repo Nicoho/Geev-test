@@ -1,8 +1,10 @@
 
-<h2>Species</h2>
-<div >
- <app-specie-item *ngFor="let specie of species, let i = index"
+<h2 class='species'>Species: </h2>
+<div class="container">
+    <div class="row">
+ <app-specie-item *ngFor="let specie of species"
  [specieName]="specie.name"
- [index]="i"
  [people]="specie.people"
  ></app-specie-item>
+ </div>
+ </div>
