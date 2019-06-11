@@ -1,7 +1,9 @@
 .specie {
   font-size: 5em;
+  color:black;
   border: 5px solid yellow;
-  margin: 2px;
-  background-color: azure;
+  padding: 2px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTYMmyGGR7df6fslUlL3Hquj-I0UK67BySGPQ9TRt6hpqwb65tA');
+  background-size: 100%;
   text-align: center;
    }

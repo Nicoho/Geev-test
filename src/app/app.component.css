@@ -1,3 +1,15 @@
+@font-face{
+    font-family:"swout";
+    src:url('../assets/Starjout.ttf')
+  }
+
 .home {
-    background-color:rgb(2, 2, 53);
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/9oPM25h.jpg');
+    background-size: cover;
+    font-family: swout;
+}
+.home .mainTitle{
+    color:yellow;
+    text-align: center
 }

@@ -1,0 +1,15 @@
+.speciePeople{
+  width:50%;
+  margin-left:25%;
+  color:yellow;
+  text-align: center;
+  border: 5px solid yellow;
+  padding: 2px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTYMmyGGR7df6fslUlL3Hquj-I0UK67BySGPQ9TRt6hpqwb65tA');
+  background-size: 100%;
+  
+}
+
+.specieBut{
+  margin-left: 3em;
+}
