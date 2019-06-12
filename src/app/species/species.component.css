@@ -1,4 +1,16 @@
 .species {
   color:yellow;
   margin-left: 3em;
+  margin-top:10px;
+}
+
+.species-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.species-list > * {
+  width: 290px;
+  margin: 1%;
 }

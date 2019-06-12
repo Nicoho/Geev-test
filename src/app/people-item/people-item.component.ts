@@ -6,6 +6,7 @@ import { ApiService } from '../api.service';
   templateUrl: './people-item.component.html',
   styleUrls: ['./people-item.component.css']
 })
+
 export class PeopleItemComponent implements OnInit {
  @Input() url:string;
  name:string;

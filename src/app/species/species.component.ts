@@ -6,16 +6,14 @@ import { ApiService } from '../api.service';
   templateUrl: './species.component.html',
   styleUrls: ['./species.component.css']
 })
+
 export class SpeciesComponent implements OnInit {
   species:any;
   
-
   constructor(private apiService: ApiService) { }
   ngOnInit() {
     this.apiService.getSpecies().subscribe((data)=>{
-         this.species = data['results'];
-      });
+      this.species = data['results'];
+    });
   }
-
-  
 }

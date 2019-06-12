@@ -1,8 +1,11 @@
-<Button type="button" class="btn btn-primary specieBut" routerLink="">Species</Button>
+<div class ='peopleLink'>
+  <h2 class='speciesLink' routerLink="">Species </h2>
+  <h2>/ {{ name }}</h2>
+</div>
+
 <div class='speciePeople'>
   <h2>Specie: {{ name }}</h2>
   <app-people-item *ngFor= "let url of peoples"
     [url]= "url"
   ></app-people-item>
-
 </div>

@@ -14,10 +14,9 @@ export class ApiService {
 
   getSpecies(){
     return this.httpClient.get(`https://swapi.co/api/species/`);
-}
+  }
 
-getPeoples (people){
-  return this.httpClient.get(people);
-}
-
+  getPeoples (people){
+    return this.httpClient.get(people);
+  }
 }
